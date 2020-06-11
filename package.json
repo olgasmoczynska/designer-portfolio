@@ -1,0 +1,29 @@
+{
+  "name": "designer-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olgasmoczynska/designer-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olgasmoczynska/designer-portfolio/issues"
+  },
+  "homepage": "https://github.com/olgasmoczynska/designer-portfolio#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
+  },
+  "devDependencies": {
+    "gulp-jshint": "^2.1.0",
+    "gulp-sass": "^4.1.0",
+    "jshint": "^2.11.1",
+    "node-sass": "^4.14.1"
+  }
+}
