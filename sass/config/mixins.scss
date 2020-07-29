@@ -1,0 +1,19 @@
+@mixin button($color, $size) {
+    background: $color;
+    width: $size;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 1.125rem;
+    font-family: $font-main;
+    font-weight: bold;
+
+    @if $color==$color-gradient {
+        color: $color-white;
+        border: none;
+    }
+
+    @else if $color==$color-white {
+        color: $color-highlight-light;
+        border: 1px solid $color-highlight-light;
+    }
+}
