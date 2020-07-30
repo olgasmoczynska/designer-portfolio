@@ -1,0 +1,33 @@
+.banner {
+    width: 100%;
+    height: 585px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    & > img:first-of-type {
+        position: absolute;
+        margin: 0 auto;
+        z-index: -2;
+    }
+    & > img:last-of-type {
+        position: absolute;
+        margin: 0 auto;
+        mix-blend-mode: lighten;
+        z-index: -1;
+    }
+    h1 {
+        font-family: $font-main;
+        font-size: 6.25rem;
+        font-weight: bold;
+        color: $color-highlight-light;
+    }
+    h3 {
+        font-family: $font-main;
+        font-size: 2.25rem;
+        font-weight: bold;
+        color: #fff;
+        margin: $main-spacing * 2 0;
+    }
+}
