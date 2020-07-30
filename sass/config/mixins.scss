@@ -6,6 +6,7 @@
     font-size: 1.125rem;
     font-family: $font-main;
     font-weight: bold;
+    cursor: pointer;
 
     @if $color==$color-gradient {
         color: $color-white;
