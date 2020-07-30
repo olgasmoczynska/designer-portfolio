@@ -1,0 +1,12 @@
+.menu__item {
+    &:not(:last-of-type) {
+        margin-right: $main-spacing * 4;
+    }
+    a {
+        color: $color-text-primary;
+        text-decoration: none;
+        &:hover {
+            color: $color-highlight-dark;
+        }
+    }
+}

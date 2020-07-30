@@ -1,0 +1,8 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: $main-width;
+    margin: 0 auto;
+    padding: $main-spacing * 2 0;
+}

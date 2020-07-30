@@ -1,0 +1,6 @@
+.social-media__item {
+    padding: $main-spacing;
+    &:hover {
+        transform: scale(1.25);
+    }
+}
