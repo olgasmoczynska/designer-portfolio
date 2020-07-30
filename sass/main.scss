@@ -3,5 +3,15 @@
 @import "./config/variables.scss";
 @import "./config/mixins.scss";
 
-@import "./layout/nav/nav";
-@import "./layout/banner/banner";
+@import "./components/social-media/social-media.scss";
+@import "./components/social-media/social-media__item/social-media__item.scss";
+@import "./components/button/button_long_empty/button_long_empty.scss";
+@import "./components/button/button_long_filled/button_long_filled.scss";
+@import "./components/button/button_short_filled/button_short_filled.scss";
+@import "./components/button/button_short_empty/button_short_empty.scss";
+
+@import "./layout/nav/nav.scss";
+@import "./layout/nav/menu/menu.scss";
+@import "./layout/nav/menu/menu__item/menu__item.scss";
+@import "./layout/banner/banner.scss";
+@import "./layout/header/header.scss";
