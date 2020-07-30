@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: $main-spacing * 4;
+    h3 {
+        width: 100%;
+        text-align: center;
+        font-family: $font-main;
+        font-size: 2.25rem;
+        padding-bottom: $main-spacing * 4;
+    }
+    .button:first-of-type {
+        margin-right: $main-spacing * 8;
+    }
+}
