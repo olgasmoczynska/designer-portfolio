@@ -1,0 +1,22 @@
+.block__skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Raleway;
+    font-size: 1.5rem;
+}
+
+.block__skill img {
+    margin-bottom: $main-spacing * 3;
+}
+
+.block__skill_ux-ui {
+    border-right: 4px dashed #FFC53D;
+    padding-right: $main-spacing * 10;
+}
+
+.block__skill_backend {
+    border-left: 4px dashed #FFC53D;
+    padding-left: $main-spacing * 10;
+}
