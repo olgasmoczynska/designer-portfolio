@@ -1,0 +1,13 @@
+.block__personal-details {
+    font-size: 1.125rem;
+    font-family: $font-main;
+    font-weight: 700;
+    line-height: 2rem;
+    span {
+        color: $color-highlight-light;
+    }
+    border-right: 4px dashed $color-highlight-light;
+    padding-right: $main-spacing * 3;
+    width: 60%;
+    flex: 1.5;
+}

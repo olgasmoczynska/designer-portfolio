@@ -1,0 +1,8 @@
+.block__text {
+    font-family: $font-main;
+    font-size: 1.125rem;
+    color: $color-text-primary;
+    line-height: 2rem;
+    padding-left: $main-spacing * 3;
+    flex: 3;
+}

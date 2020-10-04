@@ -1,0 +1,7 @@
+.block__photo {
+    img {
+        border-radius: 50%;
+    }
+    padding-right: $main-spacing * 6;
+    flex: 0.5;
+}
