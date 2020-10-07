@@ -1,0 +1,50 @@
+.gallery__photo:first-child {
+    height: 347px;
+    width: 530px;
+    background: url(../assets/gallery_work.png);
+    &:hover {
+        background: linear-gradient(180deg, rgba(34, 34, 34, 0.5) 0%, rgba(255, 154, 61, 0.5) 100%), url(../assets/gallery_work.png);
+    }
+}
+
+.gallery__photo:nth-child(2) {
+    height: 347px;
+    width: 393px;
+    background: url(../assets/gallery_flowers.png);
+    &:hover {
+        background: linear-gradient(180deg, rgba(34, 34, 34, 0.5) 0%, rgba(255, 154, 61, 0.5) 100%), url(../assets/gallery_flowers.png);
+    }
+}
+
+.gallery__photo:nth-child(3) {
+    height: 346px;
+    width: 517px;
+    background: url(../assets/gallery_salad.png);
+    &:hover {
+        background: linear-gradient(180deg, rgba(34, 34, 34, 0.5) 0%, rgba(255, 154, 61, 0.5) 100%), url(../assets/gallery_salad.png);
+    }
+}
+
+.gallery__photo:nth-child(4) {
+    height: 354px;
+    width: 393px;
+    background: url(../assets/gallery_chair.png);
+    &:hover {
+        background: linear-gradient(180deg, rgba(34, 34, 34, 0.5) 0%, rgba(255, 154, 61, 0.5) 100%), url(../assets/gallery_chair.png);
+    }
+}
+
+.gallery__photo:nth-child(5) {
+    height: 354px;
+    width: 1047px;
+    background: url(../assets/gallery_room.png);
+    &:hover {
+        background: linear-gradient(180deg, rgba(34, 34, 34, 0.5) 0%, rgba(255, 154, 61, 0.5) 100%), url(../assets/gallery_room.png);
+    }
+}
+
+.gallery__photo:hover {
+    .gallery__photo-content {
+        display: block;
+    }
+}
