@@ -1,0 +1,7 @@
+.block {
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
+    width: 127%;
+    display: flex;
+    background-color: $color-white;
+    padding: $main-spacing * 6;
+}
