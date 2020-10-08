@@ -1,0 +1,10 @@
+.box {
+    background-color: $color-background;
+    width: 0.67 * $main-width;
+    height: 430px;
+    h4 {
+        color: $color-text-primary;
+        padding: $main-spacing * 2;
+    }
+    margin-bottom: $main-spacing * 5;
+}
