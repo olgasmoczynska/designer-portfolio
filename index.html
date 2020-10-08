@@ -6,149 +6,204 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Designer Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Ubuntu:wght@400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <nav class="nav">
-        <img class="logo" src="assets/logo.png"></img>
-        <ul class="menu">
-            <li class="menu__item"><a href="#about">About me</a></li>
-            <li class="menu__item"><a href="#skills">Skills</a></li>
-            <li class="menu__item"><a href="#portfolio">Portfolio</a></li>
-            <li class="menu__item"><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <section class="banner">
-        <img src="assets/cover_photo.png">
-        <img src="assets/cover_layer.png">
-        <h1>Welcome!</h1>
-        <h3>My name is Designer.</h3>
-        <ul class="social-media">
-            <li class="social-media__item"><a href="https://www.twitter.com/" target="_blank"><img src="assets/social_Twitter.png"></a></li>
-            <li class="social-media__item"><a href="https://www.linkedin.com/" target="_blank"><img src="assets/social_Linkedin.png"></a></li>
-            <li class="social-media__item"><a href="https://www.github.com/" target="_blank"><img src="assets/social_Github.png"></a></li>
-            <li class="social-media__item"><a href="https://www.facebook.com/" target="_blank"><img src="assets/social_Facebook.png"></a></li>
-        </ul>
-    </section>
-    <header class="header">
-        <h3>I am happy to help you with any problem!</h3>
-        <button class="button button_long_empty">Contact me!</button>
-        <button class="button button_long_filled">Check my CV</button>
-    </header>
-    <section id="about" class="about" class="box">
-        <h4>About me</h4>
-        <div class="block">
-            <div class="block__photo"></div>
-            <ul class="block__personal-details">
-                <li>Full Name: <span>Designer</span></li>
-                <li>Age: <span>21 years</span></li>
-                <li>Profile: <span>Fullstack</span></li>
-                <li>Telephone: <span>+48 123-456-789</span></li>
-                <li>E-mail: <span>night-coding@dev.com</span></li>
+    <div class="wrapper">
+        <nav class="nav">
+            <img class="logo" src="assets/logo.png"></img>
+            <ul class="menu">
+                <li class="menu__item"><a href="#about">About me</a></li>
+                <li class="menu__item"><a href="#skills">Skills</a></li>
+                <li class="menu__item"><a href="#portfolio">Portfolio</a></li>
+                <li class="menu__item"><a href="#contact">Contact</a></li>
             </ul>
-            <div class="block__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. ex ea commodo consequat.
-            </div>
-        </div>
-    </section>
-    <section id="skills" class="skills" class="box">
-        <div class="block">
-            <div class="block__skill block__skill_ux-ui">
-                <img src="assets/icon_UxUi.png">
-                <div class="block__skill-title">UX/UI</div>
-                <div class="block__skill-text">Figma</div>
-            </div>
-            <div class="block__skill block__skill_frontend">
-                <img src="assets/icon_frontend.png">
-                <div class="block__skill-title">Frontend</div>
-                <div class="block__skill-text">HTML, CSS, JavaScript</div>
-            </div>
-            <div class="block__skill block__skill_backend">
-                <img src="assets/icon_backend.png">
-                <div class="block__skill-title">Backend</div>
-                <div class="block__skill-text">PHP, Node.js</div>
-            </div>
-        </div>
-    </section>
-    <section id="portfolio" class="gallery">
-        <div class="gallery__photo">
-            <div class="gallery__photo-content">
-                <h2>Design</h2>
-                <div class="gallery__photo-text">
+        </nav>
+        <section class="banner">
+            <img src="assets/cover_photo.png">
+            <img src="assets/cover_layer.png">
+            <h1>Welcome!</h1>
+            <h3>My name is Designer.</h3>
+            <ul class="social-media">
+                <li class="social-media__item"><a href="https://www.twitter.com/" target="_blank"><img
+                            src="assets/social_Twitter.png"></a></li>
+                <li class="social-media__item"><a href="https://www.linkedin.com/" target="_blank"><img
+                            src="assets/social_Linkedin.png"></a></li>
+                <li class="social-media__item"><a href="https://www.github.com/" target="_blank"><img
+                            src="assets/social_Github.png"></a></li>
+                <li class="social-media__item"><a href="https://www.facebook.com/" target="_blank"><img
+                            src="assets/social_Facebook.png"></a></li>
+            </ul>
+        </section>
+        <header class="header">
+            <h3>I am happy to help you with any problem!</h3>
+            <button class="button button_long_empty">Contact me!</button>
+            <button class="button button_long_filled">Check my CV</button>
+        </header>
+        <section id="about" class="about box">
+            <h4>About me</h4>
+            <div class="block">
+                <div class="block__photo">
+                    <img src="assets/picture.png">
+                </div>
+                <ul class="block__personal-details">
+                    <li>Full Name: <span>Designer</span></li>
+                    <li>Age: <span>21 years</span></li>
+                    <li>Profile: <span>Fullstack</span></li>
+                    <li>Telephone: <span>+48 123-456-789</span></li>
+                    <li>E-mail: <span>night-coding@dev.com</span></li>
+                </ul>
+                <div class="block__text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.
-                </div>
-                <button class="button button_short button_filled">View</button>
-            </div>
-        </div>
-        <div class="gallery__photo"></div>
-        <div class="gallery__photo"></div>
-        <div class="gallery__photo"></div>
-        <div class="gallery__photo">
-            <div class="gallery__photo-content">
-                <h2>Design project</h2>
-                <div class="gallery__photo-text">
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.
-                </div>
-                <button class="button button_short button_filled">View</button>
-            </div>
-        </div>
-    </section>
-    <section id="contact" class="contact">
-        <h3>Contact us</h3>
-        <div class="block">
-            <div class="contact-info">
-                <div class="contact-info__top">
-                    <img src="">
-                    <div class="block__text">
-                        Please describe your question. Send me a message and I will answer you as soon as possible!
-                    </div>
-                </div>
-                <div class="contact-info__bottom">
-                    <ul class="social-media">
-                        <li class="social-media__item"><a href="https://www.twitter.com/" target="_blank"></a></li>
-                        <li class="social-media__item"><a href="https://www.linkedin.com/" target="_blank"></a></li>
-                        <li class="social-media__item"><a href="https://www.github.com/" target="_blank"></a></li>
-                        <li class="social-media__item"><a href="https://www.facebook.com/" target="_blank"></a></li>
-                    </ul>
-                    <ul class="contact-info__address">
-                        <li>Designer</li>
-                        <li>Poland, Wrocław</li>
-                        <li>ul. Tęczowa 12/3 50-000</li>
-                        <li>+48 123-456-789</li>
-                        <li>night-coding@dev.com</li>
-                    </ul>
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
                 </div>
             </div>
-            <div class="contact-form">
-                <h3>Let's start!</h3>
-                <form>
-                    <div class="form-field">
-                        <input type="text" class="form-input" placeholder="Name">
+        </section>
+        <section id="skills">
+            <div class="skills-wrapper">
+                <div class="skills box">
+                    <h4>Skills</h4>
+                    <div class="block">
+                        <div class="block__skill block__skill_ux-ui">
+                            <img src="assets/icon_UxUi.png">
+                            <div class="block__skill-title">UX/UI</div>
+                            <div class="block__skill-text">Figma</div>
+                        </div>
+                        <div class="block__skill block__skill_frontend">
+                            <img src="assets/icon_frontend.png">
+                            <div class="block__skill-title">Frontend</div>
+                            <div class="block__skill-text">HTML, CSS, JavaScript</div>
+                        </div>
+                        <div class="block__skill block__skill_backend">
+                            <img src="assets/icon_backend.png">
+                            <div class="block__skill-title">Backend</div>
+                            <div class="block__skill-text">PHP, Node.js</div>
+                        </div>
                     </div>
-                    <div class="form-field">
-                        <input type="email" class="form-input" placeholder="Your email address">
-                    </div>
-                    <div class="form-field">
-                        <input type="text" class="form-input" placeholder="Topic">
-                    </div>
-                    <div class="form-field">
-                        <textarea name="paragraph" rows="10" cols="40" placeholder="Message"></textarea>
-                    </div>
-                    <button class="button button_short button_empty">Send</button>
-                </form>
+                </div>
             </div>
-        </div>
-    </section>
-    <footer class="footer">
-        Copyright © 2019 CodersCrew
-    </footer>
+        </section>
+        <section id="portfolio" class="portfolio">
+            <h4>Portfolio</h4>
+            <div class="gallery">
+                <div class="gallery__photo">
+                    <div class="gallery__photo-content">
+                        <h2>Design</h2>
+                        <div class="gallery__photo-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore
+                            et dolore magna aliqua.
+                        </div>
+                        <button class="button button_short_filled">View</button>
+                    </div>
+                </div>
+                <div class="gallery__photo">
+                    <div class="gallery__photo-content">
+                        <h2>Design</h2>
+                        <div class="gallery__photo-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore
+                            et dolore magna aliqua.
+                        </div>
+                        <button class="button button_short_filled">View</button>
+                    </div>
+                </div>
+                <div class="gallery__photo">
+                    <div class="gallery__photo-content">
+                        <h2>Design</h2>
+                        <div class="gallery__photo-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore
+                            et dolore magna aliqua.
+                        </div>
+                        <button class="button button_short_filled">View</button>
+                    </div>
+                </div>
+                <div class="gallery__photo">
+                    <div class="gallery__photo-content">
+                        <h2>Design</h2>
+                        <div class="gallery__photo-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore
+                            et dolore magna aliqua.
+                        </div>
+                        <button class="button button_short_filled">View</button>
+                    </div>
+                </div>
+                <div class="gallery__photo">
+                    <div class="gallery__photo-content">
+                        <h2>Design project</h2>
+                        <div class="gallery__photo-text">
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                            anim id
+                            est laborum.
+                        </div>
+                        <button class="button button_short_filled">View</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h4>Contact us</h4>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-info__top">
+                        <img src="./assets/message.png">
+                        <div class="block__textt">
+                            <div>Please describe your question.</div>
+                            <div>Send me a message and I will</div>
+                            <div>answer you as soon as possible!</div>
+                        </div>
+                    </div>
+                    <div class="contact-info__bottom">
+                        <ul class="social-media">
+                            <li class="social-media__item"><a href="https://www.twitter.com/" target="_blank"><img
+                                        src="assets/social_Twitter.png"></a></li>
+                            <li class="social-media__item"><a href="https://www.linkedin.com/" target="_blank"><img
+                                        src="assets/social_Linkedin.png"></a></li>
+                            <li class="social-media__item"><a href="https://www.github.com/" target="_blank"><img
+                                        src="assets/social_Github.png"></a></li>
+                            <li class="social-media__item"><a href="https://www.facebook.com/" target="_blank"><img
+                                        src="assets/social_Facebook.png"></a></li>
+                        </ul>
+                        <p>Designer</p>
+                        <p>Poland, Wrocław</p>
+                        <p>ul. Tęczowa 12/3 50-000</p>
+                        <p>+48 123-456-789</p>
+                        <p>night-coding@dev.com</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Let's start!</h3>
+                    <form class="contact-form__form">
+                        <div class="contact-form__field">
+                            <input type="text" class="contact-form__input" placeholder="Name">
+                        </div>
+                        <div class="contact-form__field">
+                            <input type="email" class="contact-form__input" placeholder="Your email address">
+                        </div>
+                        <div class="contact-form__field">
+                            <input type="text" class="contact-form__input" placeholder="Topic">
+                        </div>
+                        <div class="contact-form__field">
+                            <textarea name="paragraph" class="contact-form__input" rows="8" cols="40"
+                                placeholder="Message"></textarea>
+                        </div>
+                        <button class="button button_short_empty">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <p>Copyright © 2019 CodersCrew</p>
+        </footer>
+    </div>
 </body>
 
 </html>
