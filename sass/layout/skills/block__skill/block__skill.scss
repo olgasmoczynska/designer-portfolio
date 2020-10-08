@@ -9,6 +9,10 @@
 
 .block__skill img {
     margin-bottom: $main-spacing * 3;
+    transition: 1s;
+    &:hover {
+        transform: rotate(360deg);
+    }
 }
 
 .block__skill_ux-ui {
