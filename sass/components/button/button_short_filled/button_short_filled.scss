@@ -1,3 +1,6 @@
 .button_short_filled {
     @include button($color-gradient, 100px);
+    &:hover {
+        @include button($color-white, 100px);
+    }
 }
