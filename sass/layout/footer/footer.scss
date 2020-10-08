@@ -1,0 +1,9 @@
+.footer {
+    font-family: $font-detail;
+    color: $color-text-secondary;
+    font-size: 0.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: $main-spacing * 5;
+}
