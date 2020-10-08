@@ -1,0 +1,11 @@
+.contact-form__input {
+    background-color: $color-background;
+    border-radius: 15px;
+    padding: $main-spacing * 1.5;
+    color: $color-text-secondary;
+    font-family: $font-detail;
+    font-size: 1.125rem;
+    margin-bottom: $main-spacing * 1.5;
+    border: none;
+    width: 95%;
+}

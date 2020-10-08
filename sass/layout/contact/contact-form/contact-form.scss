@@ -1,0 +1,9 @@
+.contact-form {
+    background-color: $color-white;
+    width: 60%;
+    h3 {
+        font-weight: 700;
+        margin-bottom: $main-spacing * 3;
+    }
+    padding: $main-spacing * 4;
+}

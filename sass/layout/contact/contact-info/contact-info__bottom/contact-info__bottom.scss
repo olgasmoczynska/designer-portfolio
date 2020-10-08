@@ -1,0 +1,8 @@
+.contact-info__bottom {
+    font-family: $font-detail;
+    font-size: 1.125rem;
+    line-height: 1.25;
+    p:nth-child(-n + 3) {
+        font-weight: 700;
+    }
+}
